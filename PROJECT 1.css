@@ -18,25 +18,50 @@ header {
 	float: right;
 	width: 50px;
 	height: 50px;
-	padding: 5px;
-	
-
-	}
-#d01{
-	text-decoration: none;
-	color: black;
-
+	padding-top: 15px;
 }
+
+
 .division{
 	float: left;
 	color: black;
 	width: 30%;
-	height: 700px;
+	height: 498px;
 	font-size: 40px;
+	background-color: #cad9f2;
+}
+li{
+	list-style-type: none;
+
+  }
+ ul a{
+	display: block;
+	width: 80%;
+	margin: 0;
+	text-decoration: none;
+    color: black;
+    }
+ul{
+    	padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+
+} 
+a:hover{
+	background-color: blue;
+	width: 100%;
+	color: white;
+
 }
 #d03{
+	float: left;
 	width: 70%;
-	padding-left: 50px;
+	background-color: #e4e1df;
+	height: 498px;
+	
+}
+.para{
+	padding: 0 0 0 30px;
 }
 footer{
 	background-color: #ff7381;
@@ -44,4 +69,5 @@ footer{
 	text-align: right;
 	vertical-align: middle;
 	padding:5px 2px;
+	overflow: hidden;
 }
